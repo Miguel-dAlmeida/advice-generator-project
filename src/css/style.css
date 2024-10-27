@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&display=swap');
+
+body {
+    background-color: var(--cor-fundo);
+    height: 100vh;
+    font-family: 'Manrope';
+    font-weight: 800;
+}
+
+.conteiner-flexivel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.conteiner-flexivel .cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-card);
+    height: 355px;
+    width: 600px;
+    border-radius: 15px;
+    max-width: 85%;
+    position: relative;
+}
+
+.cartao .numero-do-concelho {
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: var(--cor-botao-e-texto);
+    margin: 50px 0 25px 0;
+}
+
+.cartao .concelho {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 42px;
+    color: var(--cor-texto);
+    max-width: 85%;
+}
+
+.cartao picture img {
+    max-width: 100%;
+}
+
+.cartao .botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--cor-botao-e-texto);
+    bottom: -30px;
+    transition: box-shadow 0.4s, background-color 0.4s;
+}
+
+.cartao .botao:hover {
+    background-color: var(--cor-botao-e-texto);
+    box-shadow: 0 0 25px 10px rgba(0, 255, 180, 0.3);
+}
+
+
+@media (max-width: 607px) {
+    .cartao .concelho {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 455px) {
+    .cartao .concelho {
+        font-size: 1.6rem;
+        padding-bottom: 35px;
+    }
+}
+
+@media (max-width: 388px) {
+    .cartao .concelho {
+        padding-bottom: 18px;
+    }
+}
