@@ -29,7 +29,7 @@ __Nota importantíssima:__ Embora, no momento, o foco deste desafio seja apenas 
 __Confira o resultado final do projeto na imagem abaixo:__
 
 <div>
-  <img src="./src/images/project-page-image.jpeg" alt="Gif do resultado final da página" width="100%">
+  <img src="https://raw.githubusercontent.com/Miguel-dAlmeida/advice-generator-project/main/src/images/project-page-image.jpeg" alt="Gif do resultado final da página" width="100%">
 </div>
 
 ## __Linguagens Utilizadas__
@@ -66,6 +66,6 @@ Se você chegou até aqui, agradeço por dedicar seu tempo para conhecer o meu d
         target="_blank"></a>
 </div>
 
-<div>
-  <img src="https://i.imgur.com/kwfpJJn.gif" alt="Gif do resultado final da página" width="100%">
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Miguel-dAlmeida/advice-generator-project/main/src/images/closingImage.gif" alt="Imagem representando união e parceria" width="80%">
 </div>
